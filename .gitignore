@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+.idea/
+.vscode/
+
+# Исходные и скачиваемые данные
+test.zip
+data/
+external_validation/
+.paddlex/
+official_models/
+
+# Результаты локального запуска notebook
+outputs/
+*.onnx
+*.pdiparams
+*.pdmodel
+*.pdparams
+*.pt
